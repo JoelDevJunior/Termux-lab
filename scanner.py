@@ -8,7 +8,7 @@ print(f"--- Iniciando Auditoria de Rede: {data_hora} ---")
 
 # O comando -sV tenta descobrir as versões dos serviços
 # O comando --open mostra apenas as portas que estão realmente abertas
-comando = "nmap -sV --open 192.168.15.0/24 > storage/downloads/auditoria_rede.txt"
+comando = "nmap -sV --open "ip que esta verificando/24" > storage/downloads/auditoria_rede.txt"
 
 os.system(comando)
 
